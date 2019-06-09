@@ -72,7 +72,7 @@ public final class PhoneNumberFactory {
     public static PhoneNumber createPhoneNumber(String phoneNumberString) throws InvalidPhoneNumberFormatException {
         PhoneNumber number = new PhoneNumber(phoneNumberString);
 
-        logger.log(Level.WARNING, "Attempting to creat a new PhoneNumber object with a value of" + number);
+        logger.log(Level.WARNING, "Attempting to create a new PhoneNumber object with a value of" + number);
 
         return number;
     }
